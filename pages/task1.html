@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>任务一</title>
     <style>
         .img-ul li{
             list-style: none;
@@ -105,32 +105,32 @@
     <form>
         <div>
             <label for="email">请输入邮箱地址：</label>
-            <input type="text" name="email" placeholder="这是一个文本输入框">
+            <input type="text" name="email" id="email" placeholder="这是一个文本输入框">
             <p>邮箱地址请按要求格式输入</p>
         </div>
         <div>
             <label for="psw">请输入密码</label>
-            <input type="text" name="psw" placeholder="这是一个文本输入框">
+            <input type="text" name="psw" id="psw" placeholder="这是一个文本输入框">
             <label for="psw-again">请重复输入密码</label>
-            <input type="text" name="psw-again" placeholder="这是一个文本输入框">
+            <input type="text" name="psw-again" id="psw-again" placeholder="这是一个文本输入框">
             <p>密码请为6-16位英文数字</p>
         </div>
         <div>
-            <label for="sex">性别：</label>
+            <label>性别：</label>
             <label><input type="radio" name="sex"> 男</label>
             <label><input type="radio" name="sex"> 女</label>
             <label for="city">城市:</label>
-            <select name="city">
+            <select name="city" id="city">
                 <option>北京</option>
                 <option>重庆</option>
                 <option>上海</option>
             </select>
-            <label for="hobby">爱好：</label>
+            <label>爱好：</label>
             <label><input type="checkbox" name="hobby"> 运动</label>
             <label><input type="checkbox" name="hobby"> 艺术</label>
             <label><input type="checkbox" name="hobby"> 科学</label>
             <label for="desc">个人描述：</label>
-            <textarea rows="3" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+            <textarea id="desc" rows="3" placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
             <button type="submit">确认提交</button>
         </div>
     </form>
