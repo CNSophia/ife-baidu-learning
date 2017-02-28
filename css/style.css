@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #0E0E0E;
+    font-size: 12px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.pull-left{
+    float: left !important;
+}
+.pull-right{
+    float: right !important;
+}
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+/*header css*/
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #333;
+    height: 60px;
+}
+.logo{
+    float: left;
+    margin-left: 40px;
+}
+.logo img{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+}
+.header-nav{
+    float: right;
+}
+.header-nav ul{
+    margin: 0;
+    padding:0;
+}
+.header-nav ul li{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 60px;
+}
+.header-nav ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    height: 60px;
+    line-height: 60px;
+}
+/*主要内容 css*/
+.main-content{
+    background-color: #DEDEDE;
+    padding: 20px 0;
+}
+.main-content article{
+    width: 1120px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #CDCDCD;
+    box-shadow: 2px 2px 2px #848484;
+}
+.second-title{
+    font-size: 14px;
+    color: #777;
+}
+.main-content article p{
+    line-height: 20px;
+}
+.second-ul li{
+    list-style: none;
+}
+.img-area figure{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #D2D2D2;
+    padding: 10px;
+}
+.img-area figure figcaption{
+    text-align: center;
+}
+.img-area figure img{
+    width: 100px;
+    height: 80px;
+    margin-top: 5px;
+}
+.table-border{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-border caption{
+    text-align: left;
+}
+.table-border>thead>tr>th,
+.table-border>tbody>tr>td,
+.table-border>tfoot>tr>td {
+    border: 1px solid #E6E6E6;
+    padding: 5px 10px;
+}
+.table-border>thead{
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+.table-border>tfoot{
+    background-color: #CCC;
+    font-weight: bold;
+}
+.side-bar-title{
+    height: 40px;
+    line-height: 40px;
+    border-left: 4px solid #CFCFCF;
+    padding-left: 15px;
+}
+.side-bar-form{
+    width: 100%;
+}
+.side-bar-form .form-row{
+    margin-top: 10px;
+}
+.form-row label{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+.form-remark{
+    color: #aaa;
+    margin-left: 30%;
+    margin-top: 3px;
+}
+.btn-submit{
+    width: 100%;
+    background-color: #3355D0;
+    border: 1px solid #C4CCCF;
+    border-radius: 6px;
+    height: 38px;
+    color: #fff;
+}
+.footer-copyright{
+    margin: 20px 0;
+    color: #fff;
+    text-align: center;
+}
