@@ -63,9 +63,9 @@ body{
     padding: 20px 0;
 }
 .main-content article{
-    width: 1120px;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 2%;
     margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid #CDCDCD;
@@ -151,4 +151,12 @@ body{
     margin: 20px 0;
     color: #fff;
     text-align: center;
+}
+.main-content-left{
+    float: left;
+    width: 70%;
+}
+.main-content-right{
+    float: right;
+    width: 30%;
 }
